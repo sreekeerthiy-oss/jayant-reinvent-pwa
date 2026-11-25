@@ -1,0 +1,20 @@
+{
+  "name": "Jayant at re:Invent 2026",
+  "short_name": "re:Invent",
+  "description": "Wozku's live schedule, accounts, meeting spots and nightly report for AWS re:Invent 2026.",
+  "start_url": "./index.html#today",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#11121C",
+  "theme_color": "#11121C",
+  "icons": [
+    {"src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png"},
+    {"src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png"},
+    {"src": "icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable"}
+  ],
+  "shortcuts": [
+    {"name": "Report", "url": "./index.html#report"},
+    {"name": "Accounts", "url": "./index.html#accounts"}
+  ]
+}
